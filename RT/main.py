@@ -10,8 +10,7 @@ locale.setlocale(locale.LC_ALL, "Portuguese_Brazil.1252")
 import matplotlib as mpl
 mpl.rcParams['axes.formatter.use_locale'] = True
 
-
-#print("Enter origin of ray: ")
+print("Enter origin of ray: ")
 a1, a2, a3 = [float(s) for s in input().split()]
 rad_vec_ray = [a1, a2, a3]
 print("Enter direction vector of ray: ")
