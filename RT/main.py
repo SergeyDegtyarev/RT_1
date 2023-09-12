@@ -27,7 +27,7 @@ point_surface = [d1, d2, d3]
 print("Enter normal of surface: ")
 q1, q2, q3 = [float(s) for s in input().split()]
 normal_surface = [q1, q2, q3]
-print("Enter E1, E2: ")
+print("Enter E1, E2:  ")
 E1, E2 = [complex(s) for s in input().split()]
 jones_vector = np.array([E1, E2])
 
